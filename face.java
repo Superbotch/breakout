@@ -20,8 +20,10 @@ public class face extends Actor
             move( 10 );   
         
         }
-        
-        
-        // Add your action code here.
+        if(Greenfoot.isKeyDown( "up" )){
+            setRotation(270);
+            move(1);
+        }
+
     }    
 }
