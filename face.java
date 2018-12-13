@@ -18,7 +18,10 @@ public class face extends Actor
         setRotation(180);
         move(1);
 }
-        // Add your action code here.
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+    }// Add your action code here.
         if( Greenfoot.isKeyDown( "right" ) ){
         
             setRotation( 0 );
