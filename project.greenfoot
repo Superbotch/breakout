@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=59aef42aa2bedfbbf32ba96f588a2699160f76b6
+>>>>>>>=268fe44745549e0434e129505f69c1eba363cc75
 class.MyWorld.image=bathroom-tile.jpg
 class.MyWorld.superclass=greenfoot.World
 class.arigatoo.image=alligator.png
@@ -10,15 +10,15 @@ class.face.image=smiley4.png
 class.face.superclass=greenfoot.Actor
 mainWindow.height=602
 mainWindow.width=898
-mainWindow.x=328
-mainWindow.y=332
+mainWindow.x=329
+mainWindow.y=360
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=171
-target1.editor.y=337
+target1.editor.x=169
+target1.editor.y=309
 target1.height=50
 target1.name=face
 target1.naviview.expanded=true
