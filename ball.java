@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class face extends Actor
+public class ball extends Actor
 {
     /**
      * Act - do whatever the face wants to do. This method is called whenever
@@ -14,6 +14,9 @@ public class face extends Actor
      */
     public void act() 
     {
+        GreenfootImage image = getImage();
+        image.scale(image.getWidth() - 10, image.getHeight() - 10);
+        setImage(image);
         if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(180);
         move(1);
