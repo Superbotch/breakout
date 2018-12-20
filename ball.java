@@ -1,4 +1,6 @@
 import greenfoot.*;
+import java.applet.*;
+import java.awt.*;
 
 /**
  * Write a description of class face here.
@@ -12,11 +14,9 @@ public class ball extends Actor
      * Act - do whatever the face wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
     public void act() 
     {
-        GreenfootImage image = getImage();
-        image.scale(image.getWidth() - 10, image.getHeight() - 10);
-        setImage(image);
         if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(180);
         move(1);
